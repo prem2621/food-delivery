@@ -1,2 +1,2 @@
 # Progress 
-# launching in june 27
+# launching in july 27
