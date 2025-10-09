@@ -146,11 +146,11 @@ npm run build
 ## 📸 Screenshots
 
 
-![Home screen](https://drive.google.com/file/d/19u6BflciXMG5NQsNAhiXEzozfNdx1SoC/view?usp=sharing)
+![Home screen](https://drive.google.com/uc?export=view&id=19u6BflciXMG5NQsNAhiXEzozfNdx1SoC)
 
-![Contact section](https://drive.google.com/file/d/13y7_gofpWSk6GSUpaZ1Eg2_91j5_EI7a/view?usp=sharing)
+![Contact section](https://drive.google.com/uc?export=view&id=13y7_gofpWSk6GSUpaZ1Eg2_91j5_EI7a)
 
-![Footer / About](https://drive.google.com/file/d/1iPfhu_7nI_KF298PO4jTYqKUV88Zg1FT/view?usp=sharing)
+![Footer / About](https://drive.google.com/uc?export=view&id=1iPfhu_7nI_KF298PO4jTYqKUV88Zg1FT)
 
 ---
 
