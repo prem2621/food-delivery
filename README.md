@@ -145,11 +145,31 @@ npm run build
 
 ## 📸 Screenshots
 
+# Sign UP : 
+![SignUP screen](https://drive.google.com/uc?export=view&id=1wi3IFjqTuDFxu9BS7oRoFbnFiI342pr_)
 
+# Home : 
 ![Home screen](https://drive.google.com/uc?export=view&id=19u6BflciXMG5NQsNAhiXEzozfNdx1SoC)
 
+# Menu :
+![Menu screen](https://drive.google.com/uc?export=view&id=15OE1krilzNV7S4PzFedA7a5cqNabI83L)
+
+# Menu Food :
+![Menu Food](https://drive.google.com/file/d/1SjcOSG-yuknAVejz9FxJZExlSN29bMv5/view?usp=sharing)
+
+# About : 
+![About screen](https://drive.google.com/uc?export=view&id=14EAHcZP8xdAOJ68TyE8zuS7GUSBKaVVw)
+
+# Cart : 
+![Cart screen](https://drive.google.com/uc?export=view&id=1eJNG5LmDjByZv5Ff67PPgNSlMocHLSji)
+
+# Location : 
+![Location screen](https://drive.google.com/uc?export=view&id=1O-jveYnn3SjFaFTaEFj46npuaPoCXkfh)
+
+# Contact :
 ![Contact section](https://drive.google.com/uc?export=view&id=13y7_gofpWSk6GSUpaZ1Eg2_91j5_EI7a)
 
+# Footer :
 ![Footer / About](https://drive.google.com/uc?export=view&id=1iPfhu_7nI_KF298PO4jTYqKUV88Zg1FT)
 
 ---
