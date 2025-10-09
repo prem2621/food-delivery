@@ -9,11 +9,10 @@
 | **Interface**                  | **Status**       | **URL**                                                                                                                  |
 | ------------------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Client Frontend (User App)** | ✅ Deployed       | [https://food-delivery-clientss.onrender.com/](https://food-delivery-clientss.onrender.com/)                             |
-| **Admin Frontend (Dashboard)** | ⚠️ Pending (Add) | *Add your Admin URL here (e.g., [https://food-delivery-admin.onrender.com/](https://food-delivery-admin.onrender.com/))* |
+| **Admin Frontend (Dashboard)** | ✅ Deployed    |  [https://food-delivery-admin-qwfe.onrender.com/](https://food-delivery-admin-qwfe.onrender.com/) |
 | **Backend Server (API)**       | ✅ Deployed       | [https://food-delivery-server-2kj4.onrender.com](https://food-delivery-server-2kj4.onrender.com)                         |
 
-> ✅ Once you have your Admin URL, replace the placeholder line above.
-
+ 
 ---
 
 ## ✨ Project Overview
@@ -40,7 +39,7 @@ This repo layout uses three top-level folders:
 
 ## 🧩 Features & How They Work
 
-### Client (User App)
+### 🎨 Client (User App)
 
 * **Hero / Home Section**: Attractive landing area (welcome, quick CTA). Uses a responsive hero component and CSS gradients/typography.
 * **Menu / Products**: Fetches product data from the backend API (`GET /api/products`). Users can filter by category and search by name.
@@ -49,14 +48,14 @@ This repo layout uses three top-level folders:
 * **Contact Form**: Sends messages/bookings to backend or triggers an email/service (configurable).
 * **Responsive UI**: Mobile-first layout, CSS breakpoints, and accessible controls.
 
-### Admin (Dashboard)
+### 📊 Admin (Dashboard)
 
 * **Product Management (CRUD)**: Create, edit, delete products and categories. Supports image uploads.
 * **Order Management**: View, update order status, and toggle fulfillment.
 * **Analytics / Stats**: Summary cards for total orders, revenue, active products (extendable).
 * **Auth Protected**: Admin routes are protected using JWT tokens from the backend.
 
-### Backend (API)
+### 🚀 Backend (API)
 
 * **Authentication**: JWT-based authentication for users/admins (`/api/auth`).
 * **Products**: Endpoints for product list / details / create / update / delete.
@@ -77,13 +76,13 @@ This repo layout uses three top-level folders:
 
 ## 🚀 Run Locally — Step-by-step
 
-> Make sure you have Node.js (v16+ recommended) and npm installed.
+> Make sure you have Node.js (v20+ recommended) and npm installed.
 
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone  (https://github.com/prem2621/food-delivery)
+cd  (https://github.com/prem2621/food-delivery)
 ```
 
 2. **Run the Backend (server)**
@@ -102,11 +101,7 @@ npm run dev            # or: npm start
 PORT=4000
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret_here
-NODE_ENV=development
-# Optional (if using Cloudinary)
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+ 
 ```
 
 3. **Run the Client (User app)**
@@ -114,10 +109,8 @@ CLOUDINARY_API_SECRET=...
 ```bash
 cd ../client
 npm install
-# point client to your API
-# create .env or edit package config
-# Example: REACT_APP_API_URL=http://localhost:4000
-npm run start
+npm run dev
+
 ```
 
 4. **Run the Admin Dashboard**
@@ -125,18 +118,7 @@ npm run start
 ```bash
 cd ../admin
 npm install
-# set env to point to backend API
-# Example: REACT_APP_API_URL=http://localhost:4000
-npm run start
-```
-
-> If `client` and `admin` start on the same port (both default to 3000), set an alternate port for one of them:
-
-```bash
-# macOS / Linux
-PORT=3001 npm start
-# Windows (PowerShell)
-$env:PORT=3001; npm start
+npm run dev
 ```
 
 ---
@@ -151,7 +133,7 @@ npm run build
 # upload build to your static host (Vercel, Netlify, Render static site, etc.)
 ```
 
-**For server**: Deploy to Render/Heroku/Render Service. Make sure to set environment variables (MONGO_URI, JWT_SECRET, Cloudinary keys, etc.) in the host dashboard.
+**For server**: Deploy to Render/Heroku/Render Service. Make sure to set environment variables (MONGO_URI, JWT_SECRET, etc.) in the host dashboard.
 
 **Render tips**:
 
@@ -163,7 +145,6 @@ npm run build
 
 ## 📸 Screenshots
 
-(Place these images in a `screenshots/` folder at the repo root and reference them below.)
 
 ![Home screen](./screenshots/home.PNG)
 
@@ -172,17 +153,6 @@ npm run build
 ![Footer / About](./screenshots/footer.PNG)
 
 ---
-
-## ✅ What to Document / Add to README (recommended)
-
-* Add a short video/demo GIF of the app in action (hero → menu → cart → checkout)
-* API documentation (list endpoints, auth requirements, example requests)
-* Environment variables explained in detail
-* Database seeding instructions (if you have a seed file)
-
----
-
-## 🔮 Improvements & Roadmap (recommended)
 
 **Short-term (next sprint)**
 
@@ -226,18 +196,6 @@ This project is open-source. Add your license of choice (e.g., **MIT**) here.
 
 ## 📫 Contact
 
-* Website (deployed): [https://food-delivery-clientss.onrender.com/](https://food-delivery-clientss.onrender.com/)
-* Backend API: [https://food-delivery-server-2kj4.onrender.com](https://food-delivery-server-2kj4.onrender.com)
 * Add your GitHub & email here for contributors/questions.
 
 ---
-
-## 🙌 Final Notes
-
-**Super job, Prem!** Your UI looks **stunning** — the teal + magenta palette is eye-catching and the layout is clean and modern. I created this `README.md` for you — add it to your repo root and update the admin URL and any env values. If you want, I can:
-
-* Generate a `.env.example` file for server/client
-* Create a short `API.md` documenting endpoints
-* Add a production checklist (Render/Vercel specific)
-
-Tell me which follow-up you'd like and I’ll add it next. 🚀
