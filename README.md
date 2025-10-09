@@ -145,55 +145,64 @@ npm run build
 
 ## 📸 Screenshots
 
-# Sign UP : 
+# 🔐 Signup : 
 ![SignUP screen](https://drive.google.com/uc?export=view&id=1wi3IFjqTuDFxu9BS7oRoFbnFiI342pr_)
 
-# Home : 
+# 🏠 Home : 
 ![Home screen](https://drive.google.com/uc?export=view&id=19u6BflciXMG5NQsNAhiXEzozfNdx1SoC)
 
-# Menu :
+# 🍔 Menu :
 ![Menu screen](https://drive.google.com/uc?export=view&id=15OE1krilzNV7S4PzFedA7a5cqNabI83L)
 
-# Menu Food :
-![Menu Food](https://drive.google.com/uc?export=view&id=1SjcOSG-yuknAVejz9FxJZExlSN29bMv5))
+# 🍱 Menu Food :
+![Menu Food](https://drive.google.com/uc?export=view&id=1SjcOSG-yuknAVejz9FxJZExlSN29bMv5)
 
-# About : 
+# ℹ️ About : 
 ![About screen](https://drive.google.com/uc?export=view&id=14EAHcZP8xdAOJ68TyE8zuS7GUSBKaVVw)
 
-# Cart : 
+# 🛒 Cart : 
 ![Cart screen](https://drive.google.com/uc?export=view&id=1eJNG5LmDjByZv5Ff67PPgNSlMocHLSji)
 
-# Location : 
+# 📍 Location : 
 ![Location screen](https://drive.google.com/uc?export=view&id=1O-jveYnn3SjFaFTaEFj46npuaPoCXkfh)
 
-# Contact :
+# 📞 Contact :
 ![Contact section](https://drive.google.com/uc?export=view&id=13y7_gofpWSk6GSUpaZ1Eg2_91j5_EI7a)
 
-# Footer :
+# ❤️ Footer :
 ![Footer / About](https://drive.google.com/uc?export=view&id=1iPfhu_7nI_KF298PO4jTYqKUV88Zg1FT)
 
 ---
 
-**Short-term (next sprint)**
+# 🚀 Future Vision & Collaboration
 
-* Integrate payment gateway (Stripe / Razorpay) for real payments 💳
-* Add order tracking (live status / estimated time) 🚚
-* Persist cart to `localStorage` for returning users
-* Improve admin UX: bulk upload, product import/export
+One major feature I’m planning to implement in future sprints is **location-based smart interaction** between users and food trucks. 🌍✨  
 
-**Medium-term**
+### 🔮 Concept Overview
+When a user signs up, they’ll provide their **name, email, password, and location**.  
+This location data will be securely stored along with their user profile and cart details.  
 
-* Add push notifications (for order updates)
-* Add user profiles, order history, and address management
-* Add search suggestions and better filters
-* Add image optimizations and lazy-loading for performance
+### 📍 How It Works
+- Once a food truck updates its live location,  
+  nearby users will **automatically receive a notification** about its presence. 🚚📲  
+- Users can also **manually change their location** or **share their current GPS position** using **Google Maps API**.  
+- This helps users instantly know whether a food truck is **nearby or far away**, improving real-time engagement.  
+- On the business side, it provides **valuable insights** into:
+  - Which areas attract the most customers 🍔  
+  - What locations drive better sales 📊  
+  - How to plan **optimal routes** for food trucks 🔁  
 
-**Long-term / Nice-to-have**
+### 💡 Impact
+This feature bridges a real-world gap between **mobile food businesses** and **local customers**, using smart data and geolocation technology — empowering both sides.  
 
-* Mobile app wrappers (React Native / Expo)
-* PWA support (offline, installable) 🧭
-* CI/CD pipeline, unit & integration tests, E2E tests
-* Analytics & real-time dashboard (Socket.io) 📊
+### 🤝 Collaboration
+I’m open to collaborating with developers, data enthusiasts, or designers who are interested in building this idea further.  
+Feel free to reach out! 💬  
+
+- 💻 **GitHub:** [prem2621](https://github.com/prem2621)  
+- 💼 **LinkedIn:** [Prem Kumar](https://www.linkedin.com/in/premkumar-frontenddeveloper/)  
+- 📧 **Email:** premkumar200326@gmail.com  
+
 
 ---
 
@@ -207,15 +216,17 @@ npm run build
 **Code style**: Keep components modular and CSS scoped. Use descriptive commit messages and small PRs for faster reviews.
 
 ---
-
+ 
 ## 📜 License
-
-This project is open-source. Add your license of choice (e.g., **MIT**) here.
+This project is open-source under the **MIT License**.  
+Feel free to use, modify, and distribute with attribution.
 
 ---
 
 ## 📫 Contact
 
-* Add your GitHub & email here for contributors/questions.
+- 💻 **GitHub:** [prem2621](https://github.com/prem2621)  
+- 📧 **Email:** premkumar200326@gmail.com  
+- 🌐 **Portfolio:** [https://prem2621.github.io/webfolio/](https://prem2621.github.io/webfolio/)
 
 ---
