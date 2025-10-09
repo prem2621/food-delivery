@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+body{
+  min-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(40deg, #04d1c0,#03c0b0,#b11d59 110%);
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}

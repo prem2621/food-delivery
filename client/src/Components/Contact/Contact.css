@@ -1,0 +1,82 @@
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .delivery{
+  height: 430px;
+}
+.contact .content p{
+  color: #f0eeee;
+  font-size: 35px;
+  margin-top: 20px;
+  padding-left: 60px;
+  font-weight: bold;
+  font-family: "Oswald", cursive;
+}
+.contact .content p span{
+   color: #fdbb2d;
+   font-family: "Oswald", cursive;
+}
+.contact-form {
+  background-color: #1111110e;
+  color: #f0eeee;
+  max-width: 600px;
+  cursor: pointer;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #0707071a;
+  border: 1px solid #ffffff8a;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+input::placeholder,
+textarea::placeholder{
+  color: #f0eeee;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: #fdbb2d;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: white;
+}

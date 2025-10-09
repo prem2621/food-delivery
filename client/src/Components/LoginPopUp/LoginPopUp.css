@@ -1,0 +1,73 @@
+.login-popup{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    z-index: 1;
+    display: grid;
+}
+.login-container{
+    place-self: center;
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    animation: fadeIn 2s;
+}
+.login-title{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 25px;
+}
+.cross{
+    cursor: pointer;
+    width: 17px;
+}
+.input-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-content input{
+    outline: none;
+    padding: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+}
+.input-content input::placeholder{
+    color: rgba(0, 0, 0, 0.705);
+}
+.signup{
+    padding: 13px;
+    border: none;
+    background: #ff16d8 ;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-container .condition{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.login-container .condition input{
+    margin-top: 3px;
+    cursor: pointer;
+}
+.login-container p {
+    color: rgba(0, 0, 0, 0.705);
+}
+.login-container p span{
+    color: #ff16d8;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

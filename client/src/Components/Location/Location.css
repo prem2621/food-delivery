@@ -1,0 +1,40 @@
+.location {
+    padding: 80px 60px;
+    color: #f0eeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+.location h2 {
+  font-size: 70px;
+  margin-bottom: 10px;
+  font-family: "Oswald", cursive;
+}
+.location h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.location p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.7;
+}
+iframe{
+    width: 1000px;
+}
+.map-button {
+  margin-top: 25px;
+  padding: 17px 35px;
+  background-color: #fdbb2d;
+  color: #111;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.map-button:hover {
+  background-color: white;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaisei+Tokumin:wght@400;500;700&family=Meie+Script&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:wght@300;400;500&family=Prata&family=Roboto&display=swap');
+
+.header{
+    position: relative;
+   
+}
+.header h1{
+   font-size: 240px;
+   letter-spacing: 0.1px;
+   font-family: "Oswald", cursive;
+   font-weight: 500;
+   color: rgba(255, 255, 255, 0.288);
+   animation: fadeIn 3s;
+}
+.header .mainImg{
+    position: absolute;
+    right: -30px;
+    top: 250px;
+    width: 800px;
+}
+.text-content{
+    width: 80%;
+    margin: auto;
+}
+.header .welcome {
+    font-size: 90px;
+    color: #fff;
+    font-weight: bold;
+}
+.header .text{
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+    max-width: 300px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+

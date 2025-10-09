@@ -1,0 +1,43 @@
+.place-order{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 90px;
+    gap: 50px;
+    margin: 0 10%;
+}
+.place-order-left{
+    width: 100%;
+    max-width: max(30%,500px);
+}
+.place-order-left .title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fcfcfc;
+    margin-bottom: 40px;
+}
+.place-order-left input{
+   margin-bottom: 15px;
+   width: 100%;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+.place-order-left input::placeholder{
+    color: rgba(0, 0, 0, 0.836);
+}
+.place-order-left .multi-fields{
+    display: flex;
+    gap: 10px;
+}
+
+
+.place-order-right{
+    width: 100%;
+    max-width: max(40%,500px);
+    color: #fcfcfc;
+}
+.place-order-right button{
+    margin-top: 20px;
+}
